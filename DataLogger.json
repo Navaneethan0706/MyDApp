@@ -1,0 +1,83 @@
+{
+  "contractName": "DataLogger",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/DataLogger.sol\":\"DataLogger\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/DataLogger.sol\":{\"keccak256\":\"0x5780e8626ea1c181e188b6a05ba43a9c1b25504ff4da52c04fcd420fa62f7cb9\",\"urls\":[\"bzz-raw://b69aecd2cf61aef28f6d6e84ef33d8f5bffac73a3a2b4270bbf3814559add7c6\",\"dweb:/ipfs/QmY8zRss1pX34g1NCoxqjtQGMn7bMD97En9C4NuHRKAYrC\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122045a46e0e818188cfed32adac75be56a75c61a83cf287efe78f257e5946c850da64736f6c63430008150033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122045a46e0e818188cfed32adac75be56a75c61a83cf287efe78f257e5946c850da64736f6c63430008150033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "27:54:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "27:54:0:-:0;;;;;",
+  "source": "pragma solidity ^0.8.0;\r\n\r\ncontract DataLogger {\r\n  // Your contract code here\r\n}\r\n",
+  "sourcePath": "C:\\Users\\thala\\Desktop\\project\\MyDApp\\contracts\\DataLogger.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/DataLogger.sol",
+    "exportedSymbols": {
+      "DataLogger": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "DataLogger",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "DataLogger",
+        "nameLocation": "36:10:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "27:54:0",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "0:83:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.21+commit.d9974bed.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xdc6959f5ec20Ed847132c3AfF71b8A8B1e95c5E0",
+      "transactionHash": "0xe393fe9d5fe739c335b1f824069e476a507725aef3164c833bf945abab42ead4"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-09-18T20:28:07.698Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
