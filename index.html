@@ -4,58 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>DDoS Protection Demo</title>
+    <title>About Me</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #333;
+            background-color: #f5f7fa;
             margin: 0;
             padding: 20px;
-            background-color: #f8f9fa;
+            color: #333;
         }
-        h1 {
+        h1, h2 {
             text-align: center;
             color: #2c3e50;
-            font-size: 2.5em;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.8em;
         }
         h2 {
-            text-align: center;
-            color: #34495e;
-            font-size: 1.5em;
-            margin-bottom: 20px;
+            font-size: 1.8em;
         }
-        #data-table {
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        #skills-table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 20px;
+            margin: 20px 0;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
         }
-        #data-table th, #data-table td {
+        #skills-table th, #skills-table td {
             border: 1px solid #ddd;
             padding: 12px;
             text-align: left;
         }
-        #data-table th {
-            background-color: #f2f2f2;
-            font-weight: bold;
+        #skills-table th {
+            background-color: #f7f7f7;
             color: #2c3e50;
+            font-weight: bold;
         }
-        #data-table tr:nth-child(even) {
+        #skills-table tr:nth-child(even) {
             background-color: #f9f9f9;
         }
-        #data-table tr:hover {
+        #skills-table tr:hover {
             background-color: #f1f1f1;
         }
         @media (max-width: 768px) {
-            body {
-                padding: 10px;
+            h1 {
+                font-size: 2em;
             }
-            h1, h2 {
+            h2 {
                 font-size: 1.5em;
             }
-            #data-table th, #data-table td {
+            p {
+                font-size: 1em;
+            }
+            #skills-table th, #skills-table td {
                 font-size: 14px;
                 padding: 10px;
             }
@@ -63,18 +73,38 @@
     </style>
 </head>
 <body>
-    <h1>DDoS Protection System Demo</h1>
-    <h2>CSV Data</h2>
-    <table id="data-table" aria-label="DDoS Protection CSV Data">
+    <h1>About Me</h1>
+    <p>
+        Hi, I’m [Your Name], a passionate [your profession, e.g., web developer, designer, etc.]. 
+        I have a deep interest in creating user-friendly, functional websites that help 
+        businesses and individuals achieve their goals.
+    </p>
+    <h2>My Skills</h2>
+    <table id="skills-table" aria-label="Skills Table">
         <thead>
             <tr>
-                <th scope="col">Column 1</th>
-                <th scope="col">Column 2</th>
-                <!-- Add more columns as needed -->
+                <th>Skill</th>
+                <th>Proficiency Level</th>
+                <th>Experience (Years)</th>
             </tr>
         </thead>
         <tbody id="data-body">
-            <!-- Data rows will be inserted here -->
+            <tr>
+                <td>HTML & CSS</td>
+                <td>Expert</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Advanced</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>React.js</td>
+                <td>Intermediate</td>
+                <td>2</td>
+            </tr>
+            <!-- More skills can be dynamically added here with script.js -->
         </tbody>
     </table>
     <script src="script.js"></script>
