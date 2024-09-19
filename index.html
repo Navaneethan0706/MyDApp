@@ -3,22 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>DDoS Protection Demo</title>
     <style>
-        body { font-family: Arial, sans-serif; }
-        #data-table { width: 100%; border-collapse: collapse; }
-        #data-table th, #data-table td { border: 1px solid #ddd; padding: 8px; }
-        #data-table th { background-color: #f2f2f2; }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            text-align: center;
+            color: #34495e;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        #data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        #data-table th, #data-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        #data-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        #data-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        #data-table tr:hover {
+            background-color: #f1f1f1;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            h1, h2 {
+                font-size: 1.5em;
+            }
+            #data-table th, #data-table td {
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
     </style>
 </head>
 <body>
     <h1>DDoS Protection System Demo</h1>
     <h2>CSV Data</h2>
-    <table id="data-table">
+    <table id="data-table" aria-label="DDoS Protection CSV Data">
         <thead>
             <tr>
-                <th>Column 1</th>
-                <th>Column 2</th>
+                <th scope="col">Column 1</th>
+                <th scope="col">Column 2</th>
                 <!-- Add more columns as needed -->
             </tr>
         </thead>
